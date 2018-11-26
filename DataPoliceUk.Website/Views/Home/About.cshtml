@@ -1,0 +1,21 @@
+﻿@using DataPoliceUk.Models
+@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Use this area to provide additional information.</p>
+
+@{
+    var forces = (List<Force>) ViewData["Forces"];
+    if (forces.Any())
+    {
+        <ul>
+            @foreach (var force in forces)
+            {
+                <li id="@force.Id">@force.Name</li>
+            }
+        </ul>
+    }
+}
