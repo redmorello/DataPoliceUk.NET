@@ -4,3 +4,8 @@ packages/
 DataPoliceUk/bin/
 DataPoliceUk.Website/bin/
 DataPoliceUk.Website/obj/
+DatePoliceUk.API/bin/
+DatePoliceUk.API/obj/
+DataPoliceUk.Tests/bin/
+DataPoliceUk.Tests/obj/
+DatePoliceUk.API/Properties/PublishProfiles/

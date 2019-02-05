@@ -1,0 +1,5 @@
+﻿namespace DataPoliceUk.Enums
+{
+    public enum OutcomeStatusCategory { ActionToBeTakenByAnotherOrganisation, AwaitingCourtOutcome, CourtCaseUnableToProceed, CourtResultUnavailable, DefendantFoundNotGuilty, DefendantSentToCrownCourt, FormalActionIsNotInThePublicInterest, InvestigationCompleteNoSuspectIdentified, LocalResolution, OffenderDeprivedOfProperty, OffenderFined, OffenderGivenACaution, OffenderGivenCommunitySentence, OffenderGivenConditionalDischarge, OffenderGivenSuspendedPrisonSentence, OffenderOrderedToPayCompensation, OffenderOtherwiseDealtWith, OffenderSentToPrison, StatusUpdateUnavailable, SuspectChargedAsPartOfAnotherCase, UnableToProsecuteSuspect };
+
+}

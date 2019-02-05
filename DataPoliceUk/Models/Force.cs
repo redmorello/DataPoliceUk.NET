@@ -1,14 +1,12 @@
-﻿namespace DataPoliceUk.Models
+﻿using Newtonsoft.Json;
+
+namespace DataPoliceUk.Models
 {
     public class Force
     {
-        /// <summary>
-        /// Unique force identifier
-        /// </summary>
+        [JsonProperty("id")]
         public string Id { get; set; }
-        /// <summary>
-        /// Force name
-        /// </summary>
+        [JsonProperty("name")]
         public string Name { get; set; }
     }
 }
