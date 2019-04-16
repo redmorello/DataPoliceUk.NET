@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPoliceUk.API", "DatePol
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPoliceUk.Tests", "DataPoliceUk.Tests\DataPoliceUk.Tests.csproj", "{6ADC2AEB-9059-4FE6-83B1-1A621CC974B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPoliceUk.Website", "DataPoliceUk.Website\DataPoliceUk.Website.csproj", "{4E768316-5EC6-4002-97C0-93A75D13100C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPoliceUk.Website", "DataPoliceUk.Website\DataPoliceUk.Website.csproj", "{4E768316-5EC6-4002-97C0-93A75D13100C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPoliceUk.AzureMapsWebsite", "DataPoliceUk.AzureMapsWebsite\DataPoliceUk.AzureMapsWebsite.csproj", "{556235EF-F1A1-4A96-A95F-E93ED58FD572}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4E768316-5EC6-4002-97C0-93A75D13100C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E768316-5EC6-4002-97C0-93A75D13100C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E768316-5EC6-4002-97C0-93A75D13100C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{556235EF-F1A1-4A96-A95F-E93ED58FD572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556235EF-F1A1-4A96-A95F-E93ED58FD572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556235EF-F1A1-4A96-A95F-E93ED58FD572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556235EF-F1A1-4A96-A95F-E93ED58FD572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Forces";
+}
+
+<div class="row forces">
+    <div class="col-md-12">
+        <h2>@ViewData["Title"]</h2>
+        <h5>@ViewData["Message"]</h5>
+    </div>
+    <div class="col-md-12">
+        <select id="forces" class="forces__select form-control">
+            <option value="">Please select...</option>
+        </select>
+        
+        <div class="panel panel-default force__panel">
+            <div class="panel-heading">
+                <h3 class="panel-title force__name"></h3>
+            </div>
+            <div class="panel-body">
+                <div class="force__description"></div>
+                <p>Telephone: <span class="force__telephone"></span></p>
+                <p>Url: <a href="" target='_blank' class="force__url"></a></p>
+            </div>
+        </div>
+        
+        <div class="row force__repeater"></div>
+    </div>
+</div>
