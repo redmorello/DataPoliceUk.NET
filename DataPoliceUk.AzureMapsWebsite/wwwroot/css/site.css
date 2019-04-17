@@ -39,3 +39,47 @@ body {
 .force__panel {
     margin-top: 15px !important;
 }
+
+.streetcrimes_btn {
+    margin-top: 15px;
+}
+
+.badge.anti-social-behaviour {
+    background-color: #ff3300;
+}
+.badge.anti-social-behaviour {
+    background-color: #ff3300;
+}
+.badge.bicycle-theft {
+    background-color: #66ff33;
+}
+.badge.burglary {
+    background-color: #0033cc;
+}
+.badge.criminal-damage-arson {
+    background-color: #9933ff;
+}
+.badge.drugs {
+    background-color: #660033;
+}
+.badge.other-theft {
+    background-color: #ffcc00;
+}
+.badge.robbery {
+    background-color: #cc6600;
+}
+.badge.shoplifting {
+    background-color: #ff6666;
+}
+.badge.theft-from-the-person {
+    background-color: #666633;
+}
+.badge.vehicle-crime {
+    background-color: #666699;
+}
+.badge.violent-crime {
+    background-color: #33cc33;
+}
+.badge.other-crime {
+    background-color: #4288f7;
+}

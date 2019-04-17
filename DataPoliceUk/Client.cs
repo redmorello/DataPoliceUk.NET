@@ -212,6 +212,7 @@ namespace DataPoliceUk
             await HandleResponse(response);
             string responseBody = await response.Content.ReadAsStringAsync();
             var result = JsonConvert.DeserializeObject<List<Neighbourhood>>(responseBody);
+            result.Sort((x, y) => x.Name.CompareTo(y.Name));
             return result;
         }
 
